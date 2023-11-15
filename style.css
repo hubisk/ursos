@@ -1,5 +1,5 @@
 body {
-    background: #bbe8ee url("./images/fundo.jpg");
+    background: #bbe8ee url("./images/fundo.jpg") fixed;
     font: 16px Arial, Helvetica, sans-serif;
 }
 

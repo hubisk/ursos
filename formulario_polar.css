@@ -1,0 +1,92 @@
+*{ margin:0; padding:0;}
+
+body{
+	font:100% normal Arial, Helvetica, sans-serif;
+}
+
+form,select,input,textarea,option {
+	margin:0;
+	padding:0;
+	color:#003546;
+}
+
+div.box {
+	margin:0 auto;
+	width:500px;
+	background:#93dde7;
+	position:relative;
+	top: 20px;
+	border:1px solid #66fdf1;
+}
+
+div.box h1 {
+	font-size:18px;
+	text-align: center;
+	text-transform:uppercase;
+	padding:5px 0 5px 5px;
+	border-bottom:1px solid #006f91;
+	border-top:1px solid #005974;
+}
+
+div.box label {
+	width:100%;
+	display:block;
+	background:#93dde7;
+	border-top:1px solid #006f91;
+	border-bottom:1px solid #005974;
+	padding:10px 0 10px 0;
+}
+
+div.box label span {
+	display:block;
+	color:#003546;
+	font-size:12px;
+	float:left;
+	width:100px;
+	text-align:right;
+	padding:5px 20px 0 0;
+}
+
+div.box .input_text {
+	padding:10px 10px;
+	width:200px;
+	background:#bbe8ee;
+	border-bottom:1px double #005974;
+	border-top:1px double #005974;
+	border-left:1px double #006f91;
+	border-right:1px double #006f91;
+}
+
+div.box .message {
+	padding:7px 7px;
+	width:350px;
+	background:#bbe8ee;
+	border-bottom:1px double #005974;
+	border-top:1px double #005974;
+	border-left:1px double #006f91;
+	border-right:1px double #006f91;
+	overflow:hidden;
+	height:150px;
+}
+
+div.box .button {
+	color: #fff;
+	margin:0 0 10px 0;
+	background:#017ac0;
+	border:0px;
+	border-radius: 0 0 10px 10px;
+	position:relative;
+	top:10px;
+	left:295px;
+	width:100px;
+	border-bottom:1px double #004064;
+	border-top:1px double #004064;
+	border-left:1px double #00a2ff;
+	border-right:1px double #00a2ff;
+}
+
+div.box .button:hover {
+	background-color: #004064;
+	border: 1px solid #00a2ff;
+	box-shadow: 3px 3px 4px rgba(#000, 0.8);
+}
